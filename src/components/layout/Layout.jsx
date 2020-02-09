@@ -1,16 +1,16 @@
 import React from 'react'
-import Aux from '../../hoc/Aux'
+import Auxx from '../../hoc/Auxx'
 
 import classes from './layout.module.css'
 
 const layout = (props) => {
     return (
-    <Aux>
+    <Auxx>
     <div>Tool, sideDrawer, BackDrop</div>
     <main className={classes.Content}>
         {props.children}
     </main>
-    </Aux>
+    </Auxx>
     )
 }
 
