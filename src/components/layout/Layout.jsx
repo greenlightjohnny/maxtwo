@@ -1,12 +1,12 @@
 import React from 'react'
 import Auxx from '../../hoc/Auxx'
-
+import Backdrop from '../UI/Backdrop/Backdrop'
 import classes from './layout.module.css'
 
 const layout = (props) => {
     return (
     <Auxx>
-    <div>Tool, sideDrawer, BackDrop</div>
+    <Backdrop />
     <main className={classes.Content}>
         {props.children}
     </main>
