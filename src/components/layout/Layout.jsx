@@ -1,17 +1,16 @@
-import React from 'react'
-import Auxx from '../../hoc/Auxx'
-import Backdrop from '../UI/Backdrop/Backdrop'
-import classes from './layout.module.css'
+import React from "react";
+import Auxx from "../../hoc/Auxx";
 
-const layout = (props) => {
-    return (
+import classes from "./layout.module.css";
+import Toolbar from "../Navigation/Toolbar/Toolbar.jsx";
+
+const layout = props => {
+  return (
     <Auxx>
-    <Backdrop />
-    <main className={classes.Content}>
-        {props.children}
-    </main>
+      <Toolbar />
+      <main className={classes.Content}>{props.children}</main>
     </Auxx>
-    )
-}
+  );
+};
 
 export default layout;
