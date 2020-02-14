@@ -3,7 +3,7 @@ import Logo from "../../Logo/Logo.jsx";
 import NavigationItems from "../NavigationItems/NavigationItems.jsx";
 import classes from "./SideDrawer.module.css";
 import Backdrop from "../../UI/Backdrop/Backdrop";
-import Auxx from "../../../hoc/Auxx";
+import Auxx from "../../../hoc/Auxx/Auxx";
 const sidedrawer = props => {
   // attach css classes
 
